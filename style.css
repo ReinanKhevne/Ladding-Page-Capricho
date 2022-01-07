@@ -1,0 +1,21 @@
+/*fontes utilizadas*/
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #7D9888;
+    --cor02: #BF8773;
+    --cor03: #995842;
+    --cor04: #E6AAA8;
+    --cor05: #FAF2E9;
+    --cor06: #111111;
+
+    --font-padrao: 'Yanone Kaffeesatz', sans-serif;
+    --font-titulo: arial,sans-serif;
+}
