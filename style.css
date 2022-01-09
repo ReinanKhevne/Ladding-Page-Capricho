@@ -73,15 +73,30 @@ body, html {
 /*Main*/
 
 .main-conteiner {
-    background-image: url(imagens/perfume\ rosa\ media-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
+.conteiner-information-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/perfume\ rosa\ media-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Start melhorias*/
+.conteiner-information-melhorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+}
+/*end melhorias*/
 .fundo-informacoes {
     display: flex;
     flex-direction: column;
