@@ -88,15 +88,6 @@ body, html {
     background-repeat: no-repeat;
 }
 
-/*Start melhorias*/
-.conteiner-information-melhorias {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-padrao);
-    font-size: 2rem;
-}
-/*end melhorias*/
 .fundo-informacoes {
     display: flex;
     flex-direction: column;
@@ -140,9 +131,72 @@ body, html {
     color: var(--cor05);
 }
 
+/*Start melhorias*/
+.conteiner-information-melhorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+}
+/*end melhorias*/
+
+/*Start produtos*/
+
+.conteiner-information-produtos {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    height: 400px;
+    margin: 0 4rem;
+}
+
+.produtos {
+    background: var(--cor04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 15px;
+    padding: 2rem;
+
+/*Maquiagens*/
+}
+
+#maquiagens-conteiner{
+    margin-right: 2rem;
+}
+#maquiagens-conteiner label {
+    font-family: var(--font-padrao);
+    font-size: 1.8rem;
+}
+.image-maqui {
+    background: var(--cor03);
+    height: 20px;
+}
+.description-maqui {
+    font-family: var(--font-titulo);
+    font-size: 1.1rem;
+}
+
+
+
+
+
+#cosmeticos-conteiner {
+    
+    margin-right: 2rem;
+}
+
+#moda-intima-conteiner {
+    
+}
+
+/*end produtos*/
+
 /*Roda-pé*/
 .footer {
-    height: 100px;
+    height: 17.5%;
     background: var(--cor06);
 }
 
@@ -152,7 +206,7 @@ body, html {
     justify-content: center;
     gap: 2.5rem;
     list-style: none;
-    padding: 2rem 0;
+    padding-top: 2.5rem;
 }
 
 .menu-sociais a {
