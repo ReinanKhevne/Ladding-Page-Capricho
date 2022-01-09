@@ -20,7 +20,7 @@ ul {
     --cor04: #E6AAA8;
     --cor05: #FAF2E9;
     --cor06: #111111;
-    --cor07-transp: #9b97978f;
+    --cor07-transp: rgba(29, 29, 29, 0.349);
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
     --font-titulo: arial,sans-serif;
@@ -30,57 +30,56 @@ body, html {
     height: 100vh;
 }
 
+/*Header*/
+
 .header {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
     background: var(--cor06);
-    height: 100px;
+    height: 120px;
 }
 
-.nav {
+.logo-header {
     position: absolute;
-    bottom: -22%;
-    width: 50vw;
-    margin: 0 20rem;
-    background: var(--cor03);
-    padding: .6rem;
-    border-radius: 20px;
+    left: 5%;
+    background: royalblue;
 }
 
 .menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 0.5rem;
     list-style: none;
-    gap: 1.2rem;
-    padding: .3rem 0;
+    margin: 0 4rem;
 }
 
 .menu a {
+    color: var(--cor06);
     text-decoration: none;
-    color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 1.5rem;
-    padding: .3rem;
-    transition-duration: 0.6s;
+    background: var(--cor04);
+    padding: 1rem;
     border-radius: 10px;
+    border: 3px solid var(--cor04);
+    transition-duration: 0.5s;
 }
 
 .menu a:hover {
-    background: var(--cor05);
-    color: var(--cor03);
+    color: var(--cor05);
+    background: var(--cor06);
 }
 
 /*Main*/
 
 .main-conteiner {
+    background-image: url(imagens/perfume\ rosa\ media-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
- /*
-    background-image: url(https://images.unsplash.com/photo-1543422655-ac1c6ca993ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    background-position: center right;*/
-    
 }
 
 .fundo-informacoes {
@@ -92,6 +91,7 @@ body, html {
     background: var(--cor07-transp);
     border-radius: 10px;
     padding: 0 4rem;
+    margin: 0 2rem;
 }
 
 .logo-capricho {
@@ -112,12 +112,17 @@ body, html {
 
 .botao-home {
     background: var(--cor06);
-    color: var(--cor05);
-    font-family: var(--font-padrao);
-    font-size: 1.2rem;
     padding: .5rem 2rem;
     border: 0;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-home a {
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 1.2rem;
+    color: var(--cor05);
 }
 
 /*Roda-pé*/
