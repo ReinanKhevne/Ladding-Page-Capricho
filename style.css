@@ -156,14 +156,30 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    min-width: 300px;
     border-radius: 15px;
     padding: 2rem;
-
-/*Maquiagens*/
 }
 
+.botao-produtos {
+    padding: .5rem 3rem;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0px 6px 1px #13121238;
+}
+
+.botao-produtos a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cor06);
+}
+
+/*Maquiagens*/
+
 #maquiagens-conteiner{
+    box-shadow: 0px 4px 10px 1px #1414142c;
     margin-right: 2rem;
 }
 #maquiagens-conteiner label {
@@ -171,25 +187,69 @@ body, html {
     font-size: 1.8rem;
 }
 .image-maqui {
-    background: var(--cor03);
-    height: 20px;
+    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center center;
+    height: 13rem;
+    width: 11rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px #0000003f;
 }
-.description-maqui {
-    font-family: var(--font-titulo);
-    font-size: 1.1rem;
-}
 
 
-
-
+/*Cosméticos*/
 
 #cosmeticos-conteiner {
-    
+    box-shadow: 0px 4px 10px 1px #14141433;
     margin-right: 2rem;
 }
+#cosmeticos-conteiner label {
+    font-family: var(--font-padrao);
+    font-size: 1.8rem;
+}
+.image-cosme {
+    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center center;
+    height: 13rem;
+    width: 11rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px #00000034;
+}
+.botao-cosme {
+    padding: .5rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 4px
+}
 
+
+/*Moda Íntima*/
 #moda-intima-conteiner {
-    
+    box-shadow: 0px 4px 10px 1px #14141448;
+}
+#moda-intima-conteiner label {
+    font-family: var(--font-padrao);
+    font-size: 1.8rem;
+}
+
+.image-moda {
+    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center center;
+    height: 13rem;
+    width: 11rem;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px #00000038;
+}
+
+.botao-moda {
+    padding: .5rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 4px
 }
 
 /*end produtos*/
