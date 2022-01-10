@@ -20,7 +20,7 @@ ul {
     --cor04: #E6AAA8;
     --cor05: #FAF2E9;
     --cor06: #111111;
-    --cor07-transp: rgba(29, 29, 29, 0.349);
+    --cor07-transp: #ffffffcb;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
     --font-titulo: arial,sans-serif;
@@ -54,20 +54,19 @@ body, html {
 }
 
 .menu a {
-    color: var(--cor06);
+    color: var(--cor05);
     text-decoration: none;
     font-family: var(--font-padrao);
     font-size: 1.5rem;
-    background: var(--cor04);
-    padding: 1rem;
-    border-radius: 10px;
-    border: 3px solid var(--cor04);
+    padding: .5rem;
+    border: 2px solid var(--cor05);
+    border-radius: 20px;
     transition-duration: 0.5s;
 }
 
 .menu a:hover {
-    color: var(--cor05);
-    background: var(--cor06);
+    color: #fcfcfcbb;     /*cor específica sem root*/
+    border: 2px solid #fcfcfcbb;
 }
 
 /*Main*/
@@ -86,6 +85,8 @@ body, html {
     background-image: url(imagens/perfume\ rosa\ media-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 .fundo-informacoes {
@@ -152,7 +153,7 @@ body, html {
 }
 
 .produtos {
-    background: var(--cor04);
+    background: var(--cor02);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +191,7 @@ body, html {
     background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center center;
     height: 13rem;
-    width: 11rem;
+    width: 16rem;
     margin: 1.5rem 0;
     border-radius: 5px;
     box-shadow: 0px 3px 4px 3px #0000003f;
@@ -211,7 +212,7 @@ body, html {
     background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center center;
     height: 13rem;
-    width: 11rem;
+    width: 16rem;
     margin: 1.5rem 0;
     border-radius: 5px;
     box-shadow: 0px 3px 4px 3px #00000034;
@@ -238,7 +239,7 @@ body, html {
     background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center center;
     height: 13rem;
-    width: 11rem;
+    width: 16rem;
     margin: 1.5rem 0;
     border-radius: 5px;
     box-shadow: 0px 3px 4px 3px #00000038;
@@ -275,4 +276,3 @@ body, html {
     font-family: var(--font-padrao);
     font-size: 2.5rem;
 }
-
