@@ -1,5 +1,6 @@
 /*fontes utilizadas*/
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One:regular);
 
 
 * {
@@ -24,7 +25,7 @@ ul {
     --cor08: #8C2B2B;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
-    --font-titulo: arial,sans-serif;
+    --font-titulo: 'Fugaz One', cursiva;
 }
 
 body, html {
@@ -281,8 +282,47 @@ body, html {
 
 .information-sobre {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 6rem 2rem 0 2rem;
 }
 
+.image-sobre {
+    background-image: url(https://images.unsplash.com/photo-1515445182358-a8802afe3130?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 25rem;
+    width: 35rem;
+}
 
+.text-sobre h1 {
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
 
+.text-sobre p {
+    font-family: var(--font-padrao);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#botao-sobre {
+    background: var(--cor02);
+    font-family: var(--font-titulo);
+    font-size: 1.2rem;
+    padding: .3rem 2rem;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px 0px #0000003b;
+    margin-bottom: 2rem;
+}
+
+#botao-sobre a {
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+#botao-sobre:hover {
+    background: var(--cor03);
+}
