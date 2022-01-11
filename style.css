@@ -276,25 +276,13 @@ body, html {
 /*Start sobre nós*/
 
 .conteiner-sobre {
-    background-color: var(--cor01);
     height: 100vh;
-    margin: 3rem;
-    padding: 3rem;
 }
 
-.conteiner-information {
+.information-sobre {
     display: flex;
-    
+    justify-content: space-between;
 }
 
-.image-sobre {
-    background-color: violet;
-    align-items: center;
-    width: 40rem;
-    height: 20rem;
-}
 
-.text-sobre {
-    display: flex;
-    flex-direction: column;
-}
+
