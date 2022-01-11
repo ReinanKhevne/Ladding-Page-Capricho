@@ -162,14 +162,14 @@ body, html {
 }
 
 .produtos label {
-    color: var(--cor05);
-    text-shadow: 2px 3px 6px #0000005e;
+    color: var(--cor03);
+    text-shadow: 2px 3px 6px #59201b52;
     font-family: var(--font-padrao);
     font-size: 1.8rem;
 }
 
 .botao-produtos {
-    background: #ffffff8f;
+    background: #ffffff8f;   /*usando cor específica sem variáveis*/
     padding: .5rem 3.5rem;
     border: 0;
     border-radius: 4px;
@@ -181,7 +181,7 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
-    color: var(--cor06);
+    color: var(--cor04);
 }
 
 /*Maquiagens*/
@@ -192,12 +192,12 @@ body, html {
 }
 
 .image-maqui {
-    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://github.com/ReinanKhevne/Ladding-Page-Capricho/blob/main/imagens/maquiagem.png?raw=true);
     background-position: center center;
     height: 13rem;
     width: 16rem;
     margin: 1.5rem 0;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 4px 3px #0000003f;
 }
 
@@ -210,12 +210,12 @@ body, html {
 }
 
 .image-cosme {
-    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://github.com/ReinanKhevne/Ladding-Page-Capricho/blob/main/imagens/cosmeticos.png?raw=true);
     background-position: center center;
     height: 13rem;
     width: 16rem;
     margin: 1.5rem 0;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 4px 3px #00000034;
 }
 .botao-cosme {
@@ -233,12 +233,12 @@ body, html {
 }
 
 .image-moda {
-    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://github.com/ReinanKhevne/Ladding-Page-Capricho/blob/main/imagens/moda-intima.png?raw=true);
     background-position: center center;
     height: 13rem;
     width: 16rem;
     margin: 1.5rem 0;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 4px 3px #00000038;
 }
 
@@ -252,7 +252,7 @@ body, html {
 
 /*end produtos*/
 
-/*Roda-pé*/
+/*footer*/
 .footer {
     height: 17.5%;
     background: var(--cor06);
@@ -272,4 +272,29 @@ body, html {
     color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 2.5rem;
+}
+/*Start sobre nós*/
+
+.conteiner-sobre {
+    background-color: var(--cor01);
+    height: 100vh;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.conteiner-information {
+    display: flex;
+    
+}
+
+.image-sobre {
+    background-color: violet;
+    align-items: center;
+    width: 40rem;
+    height: 20rem;
+}
+
+.text-sobre {
+    display: flex;
+    flex-direction: column;
 }
