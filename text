@@ -1,3 +1,33 @@
 https://unsplash.com/photos/K1IlF2yYX8Q?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
+/*
+.logo-capricho {    
+    background-image: url(imagens/titulo-capricho.png);
+    background-position: center center;
+    width: 420px;
+    height: 170px;
+    margin: 3rem 0 0 0;
+}
 
+.description {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: var(--font-padrao);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.botao-home {
+    background: var(--cor06);
+    padding: .5rem 2rem;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-home a {
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 1.2rem;
+    color: var(--cor05);
+}

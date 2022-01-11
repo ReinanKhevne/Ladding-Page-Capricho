@@ -21,7 +21,7 @@ ul {
     --cor04: #59201B;
     --cor05: #FAF2E9;
     --cor06: #111111;
-    --cor07-transp: #ffffffcb;
+    --cor07-transp: #ffffff8f;
     --cor08: #8C2B2B;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
@@ -93,44 +93,16 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
-    height: 400px;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
     background: var(--cor07-transp);
     border-radius: 10px;
     padding: 0 4rem;
     margin: 0 2rem;
 }
 
-.logo-capricho {
-    background-image: url(imagens/titulo-capricho.png);
-    background-position: center center;
-    width: 420px;
-    height: 170px;
-    margin: 3rem 0 0 0;
-}
 
-.description {
-    text-align: center;
-    padding-bottom: 2rem;
-    font-family: var(--font-padrao);
-    font-size: 1.5rem;
-    font-weight: normal;
-}
-
-.botao-home {
-    background: var(--cor06);
-    padding: .5rem 2rem;
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.botao-home a {
-    text-decoration: none;
-    font-family: var(--font-padrao);
-    font-size: 1.2rem;
-    color: var(--cor05);
-}
 
 /*Start melhorias*/
 .conteiner-information-melhorias {
