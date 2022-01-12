@@ -21,7 +21,7 @@ ul {
     --cor04: #59201B;
     --cor05: #FAF2E9;
     --cor06: #111111;
-    --cor07-transp: #ffffff8f;
+    --cor07-transp: #ffffff81;
     --cor08: #8C2B2B;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
@@ -94,15 +94,21 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     background: var(--cor07-transp);
     border-radius: 10px;
     padding: 0 4rem;
     margin: 0 2rem;
 }
 
-
+.image-home {
+    background-image: url(imagens/titulo-home-caprichopsd.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 10rem;
+    width: 15rem;
+}
 
 /*Start melhorias*/
 .conteiner-information-melhorias {
@@ -115,6 +121,14 @@ body, html {
 /*end melhorias*/
 
 /*Start produtos*/
+
+.main-conteiner-produtos {
+    background-image: url();
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .conteiner-information-produtos {
     display: flex;
@@ -135,7 +149,7 @@ body, html {
 }
 
 .produtos label {
-    color: var(--cor03);
+    color: var(--cor08);
     text-shadow: 2px 3px 6px #59201b52;
     font-family: var(--font-padrao);
     font-size: 2.1rem;
@@ -155,6 +169,10 @@ body, html {
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--cor04);
+}
+
+.botao-produtos:hover {
+    background: var(--cor01);
 }
 
 /*Maquiagens*/
@@ -229,6 +247,10 @@ body, html {
 .footer {
     height: 17.5%;
     background: var(--cor06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
 }
 
 .menu-sociais {
@@ -237,15 +259,40 @@ body, html {
     justify-content: center;
     gap: 2.5rem;
     list-style: none;
-    padding-top: 2.5rem;
 }
-
 .menu-sociais a {
     text-decoration: none;
     color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 2.5rem;
 }
+.menu-vendas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+.menu-vendas a {
+    text-decoration: none;
+    color: var(--cor05);
+    font-family: var(--font-padrao);
+    font-size: 2.5rem;
+}
+#ed {
+    padding-top: .8rem;
+}
+#developer-name {
+    text-align: center;
+    line-height: .9rem;
+}
+
+#developer-name a {
+    color: var(--cor05);
+    text-decoration: none;
+    font-family: var(--font-padrao);
+}
+
 /*Start sobre nós*/
 
 .conteiner-sobre {
