@@ -289,3 +289,8 @@ body, html {
     background: var(--cor03);
 }
 
+/*Responsividade para Mobile*/
+
+@media (min-width: 660px) {
+    
+}
