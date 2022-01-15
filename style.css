@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 @import url(https://fonts.googleapis.com/css?family=Fugaz+One:regular);
 
-
 * {
     margin: 0;
     padding: 0;
@@ -147,6 +146,11 @@ body, html {
     color: var(--cor05);
     font-size: 2rem;
     font-family: var(--font-titulo);
+}
+
+.material div a {
+    text-decoration: none;
+    padding: 4rem 35rem;
 }
 
 /*Maquiagens*/
