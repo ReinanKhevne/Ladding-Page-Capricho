@@ -16,10 +16,8 @@
 <br>
 <br>
 
-<img src="" alt="home">
-<img src="" alt="prudutos">
-<img src="" alt="produtos-liso">
-<img src="" alt="sobre">
+<img src="https://raw.githubusercontent.com/ReinanKhevne/Site-Loja-Capricho/main/imagens/imagempng.png" alt="home">
+
 
 <br>
 <br>
