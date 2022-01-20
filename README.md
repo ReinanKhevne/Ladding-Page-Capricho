@@ -9,21 +9,24 @@
 
 
 
-
+<h4>Status: Em desenvolvimento</h4>
 <h2 align="center" >Descrição</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nostrum dolor sapiente sed obcaecati eos, assumenda nisi, ipsa amet facere, illo tenetur doloribus nam et. Asperiores ratione corporis tempore fuga!
+<p>O site da loja capricho é um projeto que ainda está em fase de desenvolvimento. E tem como destaque uma apresentação mais enxuta e minimalista do conteúdo, pois a ideia é ir direto ao ponto que o cliente final deseja, além da adptação a vários tipos de tela para melhor aproveitamento dos diversos meios de acesso. O HTML do site também conta com uma organização semântica para melhor desempenho dos mecanismos de busca, além de um código mais limpo e organizado.  
 </p>
 <br>
 <br>
 
+<img src="" alt="home">
+<img src="" alt="prudutos">
+<img src="" alt="produtos-liso">
+<img src="" alt="sobre">
 
-imagens
 <br>
 <br>
 
 
 <h2 align="center" >Como vizualizar a página?</h2>
-<p>Para visualizar a página do projeto fnalizado basta clicar o botão abaixo.</p>
+<p>Para visualizar a página do projeto finalizado basta clicar o botão abaixo.</p>
 <h3>
     <a href="https://reinankhevne.github.io/Site-Loja-Capricho/"> <strong> >>>Clique aqui<<< </strong> </a>
 </h3>
