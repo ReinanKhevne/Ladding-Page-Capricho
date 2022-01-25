@@ -44,7 +44,7 @@ body, html {
 
 .logo-header {
     height: 5rem;
-    width: 12rem;
+    width: 12rem;   
 }
 
 .menu {
@@ -344,7 +344,6 @@ body, html {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
-
 #botao-sobre {
     background: var(--cor02);
     font-family: var(--font-titulo);
@@ -364,6 +363,26 @@ body, html {
 
 #botao-sobre:hover {
     background: var(--cor03);
+}
+
+.produtos-online {
+    width: 350px;
+}
+.produto-online-plataformas {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 2.8rem;
+}
+.produto-online-plataformas a {
+    color: var(--cor06);
+    text-decoration: none;
+    font-family: var(--font-padrao);
+}
+#digital-space {
+    font-size: 3rem;
+    
 }
 
 /*Responsividade para Mobile*/
@@ -400,15 +419,6 @@ body, html {
     }
 }
 
-@media (max-width: 470px) {
-    .text-sobre h1 {
-        font-size: 2rem;
-    }
-    .plataformas {
-        display: none;
-    }
-}
-
 /*Botão mobile*/
 
 .botao {
@@ -416,7 +426,7 @@ body, html {
     width: 45px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     cursor: pointer;
 }
 
