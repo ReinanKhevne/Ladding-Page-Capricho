@@ -23,6 +23,7 @@ ul {
     --cor07-transp: #ffffff81;
     --cor08: #8C2B2B;
     --cor09: #242424e1;
+    --cor10: #b8b0b0;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
     --font-titulo: 'Fugaz One', cursiva;
@@ -472,7 +473,7 @@ body, html {
 /*Atendimento*/
 
 .conteiner-atendimento {
-    background: var(--cor01);
+    background: var(--cor05);
     height: calc(100% - 120px);
     width: 100%;
     display: flex;
@@ -504,7 +505,7 @@ body, html {
     border-radius: 15px;
     padding: 1rem;
     font-size: 1.2rem;
-    background: var(--cor07-transp);
+    background: var(--cor10);
 }
 
 #email {
@@ -515,7 +516,7 @@ body, html {
     border-radius: 15px;
     padding: 1rem;
     font-size: 1.2rem;
-    background: var(--cor07-transp);
+    background: var(--cor10);
 }
 
 #mensagem {
@@ -526,7 +527,7 @@ body, html {
     border-radius: 15px;
     padding: 1rem;
     font-size: 1rem;
-    background: var(--cor07-transp);
+    background: var(--cor10);
 }
 
 #botao {
@@ -535,22 +536,56 @@ body, html {
     padding: .3rem 1.2rem;
     cursor: pointer;
     font-size: 1.5rem;
-    background: var(--cor07-transp);
+    background: var(--cor10);
     color: var(--cor03);
     font-family: var(--font-padrao);
+    margin-bottom: 2rem;
 }
 
 #zap {
-    margin-top: 2.5rem;
-    padding: .4rem .8rem;
-    border: 0;
-    border-radius: 8px;
-    background: var(--cor02);
-    cursor: pointer;
-}
-#zap a {
     color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 1.6rem;
     text-decoration: none;
+    border-radius: 8px;
+    background: #60bd7c;
+    padding: .4rem 1rem;  
+}
+
+#zap-icon {
+    font-family: var(--font-padrao);
+    text-decoration: none;
+    color: var(--cor05);
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    padding: .4rem .8rem;
+    border-radius: 8px;
+    background: #60bd7c;
+}
+
+/*atendimento mobile*/
+
+@media screen and (max-width: 768px) {
+    .conteiner-form {
+        width: 100%;
+        padding-left: 2rem;
+    }
+    #zap {
+        display: none;
+    }
+    .menu-sociais {
+        gap: 2rem;
+    }
+    .menu-vendas {
+        gap: 2rem;
+    }
+    .footer {
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #zap-icon {
+        display: none;
+    }
 }
