@@ -259,35 +259,29 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 2.3rem;
     list-style: none;
 }
 .menu-sociais a {
     text-decoration: none;
     color: var(--cor05);
     font-family: var(--font-padrao);
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 .menu-vendas {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 2.3rem;
     list-style: none;
 }
 .menu-vendas a {
     text-decoration: none;
     color: var(--cor05);
     font-family: var(--font-padrao);
-    font-size: 2.5rem;
-}
-#ed {
-    padding-top: .8rem;
+    font-size: 2.3rem;
 }
 
-#ed a {
-    font-size: 3rem;
-}
 #developer-name {
     text-align: center;
     line-height: .9rem;
@@ -473,4 +467,90 @@ body, html {
     .botao {
         display: none;
     }
+}
+
+/*Atendimento*/
+
+.conteiner-atendimento {
+    background: var(--cor01);
+    height: calc(100% - 120px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-form {
+    width: 60%;
+}
+
+.conteiner-form h1 {
+    margin-top: 1rem;
+    font-family: var(--font-titulo);
+    color: var(--cor06);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1rem;
+}
+#nome {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: var(--cor07-transp);
+}
+
+#email {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: var(--cor07-transp);
+}
+
+#mensagem {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1rem;
+    background: var(--cor07-transp);
+}
+
+#botao {
+    border: 0; 
+    border-radius: 8px;
+    padding: .3rem 1.2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: var(--cor07-transp);
+    color: var(--cor03);
+    font-family: var(--font-padrao);
+}
+
+#zap {
+    margin-top: 2.5rem;
+    padding: .4rem .8rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--cor02);
+    cursor: pointer;
+}
+#zap a {
+    color: var(--cor05);
+    font-family: var(--font-padrao);
+    font-size: 1.6rem;
+    text-decoration: none;
 }
