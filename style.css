@@ -316,7 +316,6 @@ body, html {
     padding: 2rem;
     height: 100%;
     width: calc(100% - 35%);
-    background: cornflowerblue;
 }
 .conteudo-sobre h1 {
     font-family: var(--font-titulo);
@@ -326,67 +325,125 @@ body, html {
 .conteudo-sobre p {
     font-family: var(--font-padrao);
     font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .conteudo-sobre h2 {
     font-family: var(--font-titulo);
     font-size: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .midias-sociais {
-    background: #8C2B2B;
-    width: 200px;
+    width: 230px;
     height: 100px;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+}
+.midias-sociais a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .6rem .4rem;
+    color: var(--cor05);
+    font-family: var(--font-titulo);
+
 }
 .midias-sociais #shoppe {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
     background: var(--cor02);
-    border-radius: 5px;
-    color: var(--cor05);
-    height: 30px;
+    border-radius: 8px;
+    height: 40px;
+}
+#shoppe:hover {
+    background: var(--cor03);
 }
 
 .midias-sociais #ed {
-    background: #fff;
+    background: var(--cor02);
+    gap: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+}
+#ed:hover {
+    background: var(--cor03);
 }
 
-
+.midias-sociais-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+.midias-sociais-icons a {
+    color: var(--cor05);
+}
+#shoppe-icon {
+    background-color: var(--cor02);
+    padding: .5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#shoppe-icon:hover {
+    background: var(--cor03);
+}
+#ed-icon {
+    background-color: var(--cor02);
+    padding: .5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#ed-icon:hover {
+    background: var(--cor03);
+}
 
 /*Responsividade para Mobile*/
 
-@media (max-width: 1114px) and (min-width: 1000px){
-    .image-sobre {
-        height: 30rem;
+@media screen and (max-width: 768px) {
+    .conteudo-sobre {
+        width: 100%;
     }
-    .text-sobre h1 {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 1000px) {
     .image-sobre {
         display: none;
     }
-
-    .information-sobre {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-right: 0;
-    }
 }
 
-@media (max-width: 575px) {
-    .text-sobre h1 {
-        font-size: 2.3rem;
+@media screen and (max-width: 500px) {
+    .conteudo-sobre h1 {
+        font-size: 1.5rem;
     }
-
-    .text-sobre p {
+    .conteudo-sobre h2 {
         font-size: 1.3rem;
     }
+    .conteudo-sobre p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
 }
 
+@media screen and (max-width: 365px) {
+    .midias-sociais {
+        display: none;
+    }
+    .conteudo-sobre h1 {
+        font-size: 1.4rem;
+    }
+    .conteudo-sobre p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .conteiner-sobre h2 {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 365px) {
+    .midias-sociais-icons {
+        display: none;
+    }
+}
 /*Botão mobile*/
 
 .botao {
