@@ -13,6 +13,10 @@ ul {
     margin: 0;
 }
 
+#body-produtos {
+    overflow-x: hidden;
+}
+
 :root {
     --cor01: #F2BEA0;
     --cor02: #BF8773;
@@ -83,9 +87,9 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(imagens/perfume\ rosa\ media-1.jpg);
+    background-image: url(imagens/principal-full.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100vw;
     height: 100vh;
 }
