@@ -21,9 +21,9 @@ ul {
     --cor05: #FAF2E9;
     --cor06: #111111;
     --cor07-transp: #ffffff81;
-    --cor08: #8C2B2B;
+    --cor08: #F2F2F2;
     --cor09: #242424e1;
-    --cor10: #b8b0b0;
+    --cor10: #e0dbdeea;
 
     --font-padrao: 'Yanone Kaffeesatz', sans-serif;
     --font-titulo: 'Fugaz One', cursiva;
@@ -441,39 +441,36 @@ body, html {
 }
 /*Botão mobile*/
 
-.botao {
-    height: 45px;
-    width: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    cursor: pointer;
-}
-
-.botao li {
-    list-style: none;
-    background: var(--cor05);
-    width: 100%;
-    height: 5px;
-    border-radius: 5px;
+.bnt-mobile {
+    color: var(--cor05);
+    font-size: 2.2rem;
 }
 
 @media (max-width: 700px) {
     .menu {
         display: none;
     }
+    .image-logo {
+        display: none;
+    }
+    #logo-header-mobile {
+        background-image: url(imagens/titulo-capricho-branco-50.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
 
 @media (min-width: 701px) {
-    .botao {
+    .bnt-mobile {
         display: none;
     }
+
 }
 
 /*Atendimento*/
 
 .conteiner-atendimento {
-    background: var(--cor05);
+    background: var(--cor08);
     height: calc(100% - 120px);
     width: 100%;
     display: flex;
@@ -507,6 +504,9 @@ body, html {
     font-size: 1.2rem;
     background: var(--cor10);
 }
+#nome::placeholder {
+    color: var(--cor03);
+}
 
 #email {
     width: 80%;
@@ -518,6 +518,9 @@ body, html {
     font-size: 1.2rem;
     background: var(--cor10);
 }
+#email::placeholder {
+    color: var(--cor03);
+}
 
 #mensagem {
     width: 80%;
@@ -525,9 +528,12 @@ body, html {
     margin-bottom: 1.5rem;
     border: 0;
     border-radius: 15px;
-    padding: 1rem;
+    padding: .5rem 1rem;
     font-size: 1rem;
     background: var(--cor10);
+}
+#mensagem::placeholder {
+    color: var(--cor03);
 }
 
 #botao {
