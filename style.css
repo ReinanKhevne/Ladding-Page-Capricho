@@ -64,14 +64,11 @@ body, html {
     font-family: var(--font-padrao);
     font-size: 1.5rem;
     padding: .5rem;
-    border: 2px solid var(--cor05);
-    border-radius: 20px;
     transition-duration: 0.5s;
 }
 
 .menu a:hover {
-    color: #fcfcfcbb;     /*cor específica sem root*/
-    border: 2px solid #fcfcfcbb;
+    color: #e9e7e7bb;
 }
 
 /*Main*/
@@ -272,6 +269,10 @@ body, html {
     color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 2.3rem;
+    transition-duration: 0.5s;
+}
+.menu-sociais a:hover {
+    color: #e9e7e7bb;
 }
 .menu-vendas {
     display: flex;
@@ -285,6 +286,10 @@ body, html {
     color: var(--cor05);
     font-family: var(--font-padrao);
     font-size: 2.3rem;
+    transition-duration: 0.5s;
+}
+.menu-vendas a:hover {
+    color: #e9e7e7bb;
 }
 
 #developer-name {
@@ -505,11 +510,12 @@ body, html {
     border: 0;
     border-radius: 15px;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-family: var(--font-padrao);
     background: var(--cor10);
 }
 #nome::placeholder {
-    color: var(--cor03);
+    color: var(--cor06);
 }
 
 #email {
@@ -519,11 +525,12 @@ body, html {
     border: 0;
     border-radius: 15px;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-family: var(--font-padrao);
     background: var(--cor10);
 }
 #email::placeholder {
-    color: var(--cor03);
+    color: var(--cor06);
 }
 
 #mensagem {
@@ -533,11 +540,12 @@ body, html {
     border: 0;
     border-radius: 15px;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-family: var(--font-padrao);
     background: var(--cor10);
 }
 #mensagem::placeholder {
-    color: var(--cor03);
+    color: var(--cor06);
 }
 
 #botao {
@@ -545,9 +553,9 @@ body, html {
     border-radius: 8px;
     padding: .3rem 1.2rem;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background: var(--cor10);
-    color: var(--cor03);
+    color: var(--cor06);
     font-family: var(--font-padrao);
     margin-bottom: 2rem;
 }
