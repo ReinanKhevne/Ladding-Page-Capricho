@@ -54,7 +54,7 @@ body, html {
 
 .menu {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     list-style: none;
 }
 
@@ -81,14 +81,11 @@ body, html {
 }
 
 .conteiner-information-home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url(imagens/principal-full.jpg);
-    background-position: center center;
-    background-size: 100%;
-    width: 100vw;
-    height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    background-position: center center; background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .fundo-informacoes {
@@ -452,7 +449,8 @@ body, html {
 
 .bnt-mobile {
     color: var(--cor05);
-    font-size: 2.2rem;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 @media (max-width: 700px) {
@@ -462,6 +460,7 @@ body, html {
     .image-logo {
         display: none;
     }
+
     #logo-header-mobile {
         background-image: url(imagens/titulo-capricho-branco-50.png);
         background-repeat: no-repeat;
@@ -607,4 +606,3 @@ body, html {
         display: none;
     }
 }
-
