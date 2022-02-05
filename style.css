@@ -13,9 +13,7 @@ ul {
     margin: 0;
 }
 
-#body-produtos {
-    
-}
+#body-produtos { overflow-x: hidden;}
 
 :root {
     --cor01: #F2BEA0;
@@ -191,7 +189,7 @@ body, html {
 
 .material div a {
     text-decoration: none;
-    padding: 4rem 29%;
+    padding: 3.5rem 25%;
 }
 
 /*Maquiagens*/
