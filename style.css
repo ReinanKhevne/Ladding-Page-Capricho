@@ -164,6 +164,7 @@ body, html {
 
 .main-conteiner-produtos-teste {
     height: 100vh;
+    width: 100vw;
 }
 
 .conteiner-pro {
@@ -171,7 +172,7 @@ body, html {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .material {
@@ -214,7 +215,7 @@ body, html {
     height: 100%;
     background-color: #bf877394;
     opacity: 0;
-    z-index: 999;
+    z-index: 1000;
     transition: opacity 0.3s ease-in-out;
 }
 
