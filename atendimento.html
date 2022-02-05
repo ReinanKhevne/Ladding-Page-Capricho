@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ce8d45b1f.js" crossorigin="anonymous"></script>
     <title>Atendimento - Capricho</title>
 </head>
 <body>
@@ -19,23 +20,16 @@
 
         <nav class="nav">
 
-            <div class="bnt-mobile">
+            <div id="bnt-mobile">
                 <i class="fas fa-bars"></i>
             </div>
 
+            <!--Menu Desktop-->
             <ul class="menu">
-                <li>
-                    <a href="index.html">Início</a>
-                </li>
-                <li>
-                    <a href="produtos.html">Produtos</a>
-                </li>
-                <li>
-                    <a href="atendimento.html">Atendimento</a>
-                </li>
-                <li>
-                    <a href="sobre-nos.html">Sobre nós</a>
-                </li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
             </ul>
 
         </nav>
@@ -91,7 +85,19 @@
         <script src="https://kit.fontawesome.com/8ce8d45b1f.js" crossorigin="anonymous"></script>
     </footer>
 
-    <script src="https://kit.fontawesome.com/8ce8d45b1f.js" crossorigin="anonymous"></script>
+    <script>
+
+        var bntMobile = document.querySelector('#bnt-mobile i')
+
+        function toggleMenu() {
+            var nav = document.querySelector('.nav')
+            nav.classList.toggle('active')
+        }
+        
+        bntMobile.addEventListener('click', toggleMenu)
+
+    </script>
+    
 
 </body>
 </html>

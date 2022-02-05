@@ -19,23 +19,16 @@
 
         <nav class="nav">
 
-            <div class="bnt-mobile">
+            <div id="bnt-mobile">
                 <i class="fas fa-bars"></i>
             </div>
 
+            <!--Menu Desktop-->
             <ul class="menu">
-                <li>
-                    <a href="index.html">Início</a>
-                </li>
-                <li>
-                    <a href="produtos.html">Produtos</a>
-                </li>
-                <li>
-                    <a href="atendimento.html">Atendimento</a>
-                </li>
-                <li>
-                    <a href="sobre-nos.html">Sobre nós</a>
-                </li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
             </ul>
 
         </nav>
@@ -91,6 +84,18 @@
 
     </footer>
 
-    <script src="main.js"></script>
+    <script>
+
+        var bntMobile = document.querySelector('#bnt-mobile i')
+
+        function toggleMenu() {
+            var nav = document.querySelector('.nav')
+            nav.classList.toggle('active')
+        }
+        
+        bntMobile.addEventListener('click', toggleMenu)
+
+    </script>
+    
 </body>
 </html>

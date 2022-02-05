@@ -71,6 +71,47 @@ body, html {
     color: #e9e7e7bb;
 }
 
+#bnt-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    #bnt-mobile {
+        display: block;
+        color: var(--cor05);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        right: 0;
+        z-index: 1000;
+        background-color: var(--cor06);
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+
+    }
+    
+    .nav.active .menu {
+        display: block;
+        visibility: visible;
+        height: 100vh;
+    }
+
+    .menu a {
+        display: block;
+        padding: 1.8rem 0;
+        margin: 1.3rem 2.5rem 0 2.5rem;
+        border-bottom: 2px solid #ffffff81;
+    }
+}
+
 /*Main*/
 
 .main-conteiner {
@@ -447,16 +488,7 @@ body, html {
 }
 /*Botão mobile*/
 
-.bnt-mobile {
-    color: var(--cor05);
-    font-size: 2rem;
-    cursor: pointer;
-}
-
 @media (max-width: 700px) {
-    .menu {
-        display: none;
-    }
     .image-logo {
         display: none;
     }
