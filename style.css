@@ -87,7 +87,7 @@ body, html {
         width: 100%;
         top: 120px;
         right: 0;
-        z-index: 1000;
+        z-index: 99999;
         background-color: var(--cor06);
         height: 0px;
         visibility: hidden;
@@ -129,16 +129,41 @@ body, html {
 
 .fundo-informacoes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height: 200px;
-    background: var(--cor07-transp);
-    border-radius: 10px;
-    padding: 0 4rem;
-    margin: 0 2rem;
+    flex-direction: column; align-items: center; justify-content: center;
+    padding: 0 4rem; margin: 0 2rem; width: 1000px; height: 450px;
+    overflow: hidden; border-radius: 80px 0;    
+    box-shadow: 10px 8px 12px #00000083;
 }
+
+.fundo-informacoes img {
+    width: 1000px; height: 450px;
+}
+
+.fundo-informacoes ul {
+    list-style: none; display: flex;
+    width: 1000px; height: 450px;
+}
+.fundo-informacoes li {
+    position: relative;
+    animation: slide 25s infinite ease-out;
+}
+
+@keyframes slide {
+    0% {left: 0px;}
+    15% {left: 0px;}
+
+    25% {left: -1000px;}
+    40% {left: -1000px;}
+
+    50% {left: -2000px;}
+    65% {left: -2000px;}
+
+    75% {left: -3000px;}
+    90% {left: -3000px;}
+
+    100% {left: 0px;}
+}
+
 
 .image-home {
     background-image: url(imagens/titulo-home-caprichopsd.png);
@@ -150,11 +175,9 @@ body, html {
 
 /*Start melhorias*/
 .conteiner-information-melhorias {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-padrao);
-    font-size: 2rem;
+    display: flex; justify-content: center; align-items: center;
+    font-family: var(--font-padrao); font-size: 2rem; text-align: center;
+    padding: 0 1rem;
 }
 /*end melhorias*/
 
